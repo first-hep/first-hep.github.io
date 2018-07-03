@@ -20,9 +20,6 @@ social:
     - https://github.com/benbalter
     - https://keybase.io/benbalter
 
-disqus:
-  shortname: janczizikow # to enable comments replace with your_disqus_shortname
-
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
