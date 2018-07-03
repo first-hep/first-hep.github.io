@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing CoDaS-HEP 2018
+title: Announcing CoDaS-HEP 2018 at Princeton University
 featured-img: princeton-campus-small
 ---
 
@@ -36,12 +36,10 @@ Applications for the CoDaS-HEP school are now being accepted. The
 deadline for application is 18 May, 2018. Applicants will be notified
 regarding acceptance and available travel support by 25 May.
 
-  * School website: http://codas-hep.org
-  * Information for applications: http://codas-hep.org/pages/application.html
+  * School website: [http://codas-hep.org](http://codas-hep.org)
+  * Information for applications: [http://codas-hep.org/pages/application.html](http://codas-hep.org/pages/application.html)
 
-  A draft version of the school agenda is online at:
-
-    https://indico.cern.ch/event/707498/timetable/
+  A draft version of the school agenda is online at [https://indico.cern.ch/event/707498/timetable/](https://indico.cern.ch/event/707498/timetable/)
 
 Further details will be added in the next weeks.
 
