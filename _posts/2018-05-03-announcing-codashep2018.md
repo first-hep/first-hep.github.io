@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing CoDaS-HEP 2018 at Princeton University
+title: Announcing the CoDaS-HEP 2018 school at Princeton University
 featured-img: princeton-campus-small
 ---
 
