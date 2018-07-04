@@ -15,7 +15,8 @@ const htmlmin = require('gulp-htmlmin');
 const prefix = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
-const uglify = require('gulp-uglify');
+//const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify-es').default;
 const critical = require('critical');
 
 // Image Generation TODO
@@ -80,6 +81,8 @@ gulp.task('sass', function() {
 gulp.task('js', function() {
   return gulp.src([
       'node_modules/jquery/dist/jquery.js',
+      'node_modules/popper.js/dist/popper.js',
+      'node_modules/bootstrap/dist/js/bootstrap.min.js', 
       'node_modules/lazysizes/plugins/unveilhooks/ls.unveilhooks.js',
       'node_modules/lazysizes/lazysizes.js',
       'node_modules/velocity-animate/velocity.js',
