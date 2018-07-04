@@ -22,10 +22,9 @@ at [CERN](https://home.cern/) and the
 [Long-Baseline Neutrino Facility (LBNF)](https://lbnf.fnal.gov/) at 
 [Fermilab](http://fnal.gov/).
 Doing the science at
-both these large facilities and smaller experiments often requires complex 
-experimental apparatus capable of collecting enormous data samples, as well 
-as sophisticated software and computing systems capable of analyzing these 
-samples.
+both the large facilities and smaller experiments often requires 
+collecting enormous data samples and the development of sophisticated 
+software capable of analyzing the experimental data.
 
 
 Training is central to building the community skills needed to address the computing challenges of the HL-LHC era. One key insight is the need to think of training not as a set of individual, disconnected activities, but as part of a larger framework, as shown in Figure 4.
