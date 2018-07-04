@@ -11,10 +11,11 @@ The most successful theory to date is known as the
 ["Standard Model"](https://en.wikipedia.org/wiki/Standard_Model) 
 of particle physics.
 Although it describes the vast majority of experimental observations
-to date, it is known to be an incomplete description of nature, and
-the search for experimental results which illuminate what lies
-"Beyond the Standard Model" behind the operation of many current
-HEP experiments as well as the design of the large, next-generation,
+to date, it is known to be an incomplete description of nature. 
+The search for experimental results which illuminate what lies
+"Beyond the Standard Model" is the 
+[scientific driver](https://www.usparticlephysics.org/) for many ongoing
+experiments as well as the design of the large, next-generation
 facilities. The latter includes the
 [High-Luminosity LHC (HL-LHC)](https://home.cern/topics/high-luminosity-lhc)
 at [CERN](https://home.cern/) and the 
