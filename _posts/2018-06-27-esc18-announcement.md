@@ -5,8 +5,9 @@ featured-img: esc18-bertinoro
 ---
 
 
-*X edition of the School ESC (Efficient Scientific Computing)*
-*Bertinoro - Italy 22 - 27 October 2018*
+**X edition of the School ESC (Efficient Scientific Computing)**
+
+**Bertinoro - Italy 22 - 27 October 2018**
 
 The tenth edition of the INFN International School on "Architectures, tools
 and methodologies for developing efficient large scale scientific computing
@@ -14,7 +15,7 @@ applications"
 
 **ESC18 - EFFICIENT SCIENTIFIC COMPUTING**
 
-will be held in Bertinoro (Forl? cesena, Italy) from the 22nd to the 27th
+will be held in Bertinoro (Forli cesena, Italy) from the 22nd to the 27th
 October 2018.
 
 The aim of the ESC school is to offer the participants the opportunity
@@ -57,10 +58,9 @@ and technologies as well as for interactions among students, lecturers and
 tutors.
 
 Further information to apply to ESC18 are available on the school web site:
+[https://web.infn.it/esc/](https://web.infn.it/esc/)
 
-*https://web.infn.it/esc/*
-
-The deadline for application is: *16 September 2018*.
+The deadline for application is: **16 September 2018**.
 
 Mauro Morandin
 On behalf of the International Scientific Committee
