@@ -31,6 +31,13 @@ img {
   vertical-align: middle;
 }
 
+img.nsf {
+  height: 50;
+  width: 50;
+  vertical-align: middle;
+}
+
+
 img::selection {
   background: transparent;
 }
