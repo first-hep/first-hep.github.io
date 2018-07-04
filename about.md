@@ -15,7 +15,7 @@ to date, it is known to be an incomplete description of nature, and
 the search for experimental results which illuminate what lies
 "Beyond the Standard Model" behind the operation of many current
 HEP experiments as well as the design of the large, next-generation,
-facilities. The latter includes the [
+facilities. The latter includes the
 [High-Luminosity LHC (HL-LHC)](https://home.cern/topics/high-luminosity-lhc)
 at [CERN](https://home.cern/) and the 
 [Long-Baseline Neutrino Facility (LBNF)](https://lbnf.fnal.gov/) at 
