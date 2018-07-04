@@ -66,6 +66,16 @@
       line-height: 3.125rem;
     }
   }
+
+  .hero__subtitle {
+    color: $bg-color;
+
+    @include breakpoint($md) {
+      font-size: 2.025em;
+      line-height: 2.525rem;
+    }
+  }
+
 }
 
 .page-content {
