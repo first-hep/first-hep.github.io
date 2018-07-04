@@ -45,3 +45,13 @@ img::selection {
 figure {
   margin: 0;
 }
+
+span.footerleft {
+  max-width: 90%;
+  align: left;
+}
+
+span.footerright {
+  max-width: 10%;
+  align: right;
+}
