@@ -26,12 +26,15 @@ both the planned large facilities and smaller experiments often requires
 collecting enormous data samples and the development of 
 *sophisticated software* capable of analyzing the experimental data.
 People are the key to developing successful research software. 
-The Framework for Integrated Research Software Training in High Energy Physics (FIRST-HEP) aims to develop a community framework for software training to prepare the scientific and engineering workforce needed for the computing challenges of high-energy physics experiments. 
+The 
+**Framework for Integrated Research Software Training in High Energy Physics (FIRST-HEP)** 
+project aims to develop a community framework for software training
+to prepare the scientific and engineering workforce needed for the
+computing challenges of high-energy physics experiments.
 
 Training is central to building the skills needed to address the computing challenges of the HL-LHC era. 
 
-One key insight is the need to think of training not as a set of individual, disconnected activities, but as part of a larger framework, as shown in Figure 4.
-
+One key insight is the need to think of training not as a set of individual, disconnected activities, but as part of a larger framework, as shown here:
 
 ![Training Framework](/assets/img/Training-Pyramid.png){:class="img-responsive"}
 
