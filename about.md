@@ -10,5 +10,7 @@ Project Team:
   * Peter Elmer - Princeton University
   * Ian Cosden - Princeton University
 
-Collaborators:
+Project Goals:
+
+![Training Framework](/assets/img/Training-Pyramid.png){:class="img-responsive"}
 
