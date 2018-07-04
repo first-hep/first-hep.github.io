@@ -4,13 +4,28 @@ title: About
 permalink: /about/
 ---
 
-Project Team:
+High energy physics research aims to make discoveries which provide
+a deeper understanding of the fundamental building blocks of nature
+and their interactions. 
 
-  * Sudhir Malik (Lead PI) - University of Puerto Rico - Mayaguez
-  * Peter Elmer - Princeton University
-  * Ian Cosden - Princeton University
+The most successful theory to date is known as the ["Standard Model"]
+(https://en.wikipedia.org/wiki/Standard_Model) of particle physics.
+Although it describes the vast majority of experimental observations
+to date, it is known to be an incomplete description of nature, and
+the search for experimental results which illuminate what lies
+"Beyond the Standard Model" behind the operation of many current
+HEP experiments as well as the design of the large, next-generation,
+facilities. The latter includes the High-Luminosity LHC (HL-LHC)
+at CERN, the Long-Baseline Neutrino Facility (LBNF) at Fermilab,
+and the Super KEK-B facility at KEK. The science measurements at
+both the large facilities and smaller experiments often requires complex 
+experimental apparatus capable of collecting enormous data samples, as well 
+as sophisticated software and computing systems capable of analyzing these 
+samples.
 
-Project Goals:
+
+Training is central to building the community skills needed to address the computing challenges of the HL-LHC era. One key insight is the need to think of training not as a set of individual, disconnected activities, but as part of a larger framework, as shown in Figure 4.
+
 
 ![Training Framework](/assets/img/Training-Pyramid.png){:class="img-responsive"}
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events
+title: Training Events
 permalink: /events/
 ---
 
