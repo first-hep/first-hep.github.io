@@ -15,17 +15,16 @@ to date, it is known to be an incomplete description of nature.
 The search for what lies "Beyond the Standard Model" is the 
 [scientific driver](https://www.usparticlephysics.org/) for many ongoing
 experiments as well as the design of the large, next-generation
-facilities. The latter includes the
+facilities such as the
 [High-Luminosity LHC (HL-LHC)](https://home.cern/topics/high-luminosity-lhc)
 at [CERN](https://home.cern/) and the 
 [Long-Baseline Neutrino Facility (LBNF)](https://lbnf.fnal.gov/) at 
 [Fermilab](http://fnal.gov/).
 
-Doing the science at
-both the planned large facilities and smaller experiments often requires 
-collecting enormous data samples and the development of 
-*sophisticated software* capable of analyzing the experimental data.
-People are the key to developing successful research software. 
+Doing the science with these facilities typically requires the development of 
+**sophisticated software** capable of analyzing the enormous samples 
+experimental data collected, and people are the key to developing this 
+software. 
 The 
 **Framework for Integrated Research Software Training in High Energy Physics (FIRST-HEP)** 
 project aims to develop a community framework for software training
