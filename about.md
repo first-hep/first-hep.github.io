@@ -58,3 +58,6 @@ larger community framework, as shown here:
 
 ![Training Framework](/assets/img/Training-Pyramid.png){:class="img-responsive"}
 
+  * To work with the HEP community to build a consensus around this vision and a collaborative framework among national and international entities for implementing the vision
+  * To develop a Carpentries-style introductory HEP software training curriculum, and a community of instructors, which is seen nationally and internationally as the entrance point into the overall training vision 
+  * To develop a more advanced training school within the U.S. for the relevant software skills (building on CoDaS-HEP) as well as an international federation of similar advanced training schools in HEP and beyond
