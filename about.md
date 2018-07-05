@@ -20,10 +20,11 @@ facilities such as the
 at [CERN](https://home.cern/) and the 
 [Long-Baseline Neutrino Facility (LBNF)](https://lbnf.fnal.gov/) at 
 [Fermilab](http://fnal.gov/).
-Doing the science with these facilities typically requires the development of 
+Doing science with these facilities typically requires the development of 
 **sophisticated software** capable of analyzing the enormous samples 
 experimental data collected, and **people** are the key to developing this 
-software. 
+software. To be successful they require a mix of deep physics 
+domain knowledge *and* advanced software skills.
 
 The 
 **Framework for Integrated Research Software Training in High Energy Physics (FIRST-HEP)** 
