@@ -4,7 +4,7 @@ title: Research Software Training
 permalink: /about/
 ---
 
-XXX The 
+The 
 **Framework for Integrated Research Software Training in High Energy Physics (FIRST-HEP)** 
 project aims to develop a community framework for software training
 to prepare the scientific and engineering workforce needed for the
