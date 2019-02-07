@@ -14,3 +14,4 @@ Collaborators and Partners:
 
   * [The HEP Software Foundation](https://hepsoftwarefoundation.org/)
   * [The Carpentries](https://carpentries.org/)
+  * [The IRIS-HEP (Software Institute) project](http://iris-hep.org)
