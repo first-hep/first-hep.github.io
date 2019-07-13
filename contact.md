@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-The FIRST-HEP project collaborates with a number of other entities to organize training events, including the [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org/) and the Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)](https://iris-hep.org/).
+The FIRST-HEP project collaborates with a number of other entities to organize training events, including the [HEP Software Foundation (HSF)](https://hepsoftwarefoundation.org/) and the [Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP)](https://iris-hep.org/).
 
 We use the HSF Training mailing list for discussions related to planning events:
 
