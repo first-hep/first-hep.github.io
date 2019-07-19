@@ -24,6 +24,10 @@ permalink: /events/
     * University of Puerto Rico at Mayaguez
     * [Indico page](https://indico.cern.ch/event/817539/)
 
+  * 24-26 Apr, 2019 - Machine Learning Hackathon for UPRM Students
+    * University of Puerto Rico at Mayaguez
+    * [Indico page](https://indico.cern.ch/event/809812/)
+
   * 1-2 Apr, 2019 - Software Carpentry Workshop 
     * Fermi National Accelerator Laboratory
     * [Indico page](https://indico.fnal.gov/event/20233)
