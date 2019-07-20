@@ -60,21 +60,19 @@ IRIS-HEP team members are involved in organizing the following events:
 
 <h1>New Content</h1>
 
-    <main class="site__content">
-      <section class="blog">
-        <h2> News Items 2 </h2>
-        <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+ <section class="blog">
+   <h2> News Items 2 </h2>
+   <div class="container">
+     <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% for post in site.posts %}
-              {% include card.html %}
-            {% endfor %}
+       {% for post in site.posts %}
+         {% include card.html %}
+       {% endfor %}
 
-            <!-- {% include pagination.html %} -->
-          </div>
-        </div>
-      </section>
-    </main>
+       <!-- {% include pagination.html %} -->
+     </div>
+   </div>
+ </section>
 
 
 
