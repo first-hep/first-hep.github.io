@@ -19,10 +19,10 @@
       <h2>{{ event.name | strip_html | truncate: 50 }}</h2>
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
-        <time>{{ {event.startdate | date: date_format} - {event.enddate | date: date_format}}}</time>
+        <time>{{ event.startdate | date: date_format }} - {{ event.enddate | date: date_format }}</time>
       </span>
       <span class="post-card__meta">
-      {{event.location}}
+      {{ event.location }}
       </span>
     </div>
     {% if event.description %}
