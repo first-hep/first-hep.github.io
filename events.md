@@ -40,6 +40,9 @@ Go through the list and produce a breakdown of the events in reverse
 chronological order, grouped by months
 {% endcomment %}
 
+{% assign yearlist = "2019, 2018, 2017, 2016" | split: ", " %}
+{% assign monthlist= "12, 11, 10, 09, 08, 07, 06, 05, 04, 03, 02, 01" | split: ", " %}
+
 {% for yearidx in yearlist %}
 {% for monthidx in monthlist %}
 {% assign selected_array = "" | split: ',' %}
