@@ -18,8 +18,9 @@
     <div class="post-card__header">
       <h2>{{ event.name | strip_html | truncate: 50 }}</h2>
       {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+      (% if event.enddate }}
       <span class="post-card__meta">
-        <time>{{ event.startdate | date: date_format }} - {{ event.enddate | date: date_format }}</time>
+        <time>{{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }}</time>
       </span>
       <br>
       <span class="post-card__meta">
