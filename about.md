@@ -56,7 +56,7 @@ How can such training be improved? One key insight is the need to think of
 training not as a set of individual, disconnected activities, but as part of a
 larger community framework, as shown here:
 
-![Training Framework](/assets/img/Training-Pyramid.png){:class="img-responsive"}
+![Training Framework](/assets/images/Training-Pyramid.png){:class="img-responsive"}
 
 The goals of the FIRST-HEP project are:
 

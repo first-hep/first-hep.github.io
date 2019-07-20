@@ -176,5 +176,5 @@ gulp.task('img', function() {
       withMetadata: false,
     }))
     .pipe(imagemin())
-    .pipe(gulp.dest('assets/img/posts/'));
+    .pipe(gulp.dest('assets/images/posts/'));
 });
