@@ -21,8 +21,9 @@
       <span class="post-card__meta">
         <time>{{ event.startdate | date: date_format }} - {{ event.enddate | date: date_format }}</time>
       </span>
+      <br>
       <span class="post-card__meta">
-      {{ event.location }}
+      <i>{{ event.location }}</i>
       </span>
     </div>
     {% if event.description %}
