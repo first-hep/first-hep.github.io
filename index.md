@@ -4,7 +4,7 @@
 # Edit sleeks's default layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
-layout: default
+layout: mainpage
 title: FIRST-HEP
 ---
 
@@ -57,6 +57,24 @@ IRIS-HEP team members are involved in organizing the following events:
   {% endif %}
 {% endfor %}
 </ul>
+
+<h1>New Content</h1>
+
+    <main class="site__content">
+      <section class="blog">
+        <h2> News Items 2 </h2>
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+            {% for post in site.posts %}
+              {% include card.html %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
+        </div>
+      </section>
+    </main>
 
 
 

@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/codashep2017-mattson-class-IMG_6311-small.JPG">
+      <div class="hero__wrap">
+        <h1 class="hero__title">Framework for Integrated Research Software Training</h1>
+        <h2 style="color:white;">in High Energy Physics</h2>
+      </div>
+    </div>
+
+   {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
