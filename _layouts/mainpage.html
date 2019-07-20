@@ -31,6 +31,11 @@ layout: compress
         <div class="container">
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
+            {% for event_hash in site.data.events  %}
+              {% assign event = event_hash[1] %}
+                {% include eventcard.html %}
+              {% endfor %}
+
             {% for post in site.posts %}
               {% include card.html %}
             {% endfor %}
