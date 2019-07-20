@@ -8,27 +8,55 @@ layout: default
 title: FIRST-HEP
 ---
 
-**Upcoming events:**
+{% comment %}
+Go through the list and produce a list of upcoming events as well as a
+list of events in the past 90 days. Treat 6 days ago as "now" so that
+ongoing events don't get prematurely flagged as recent.
+{% endcomment %}
+{% assign currentdatecmp = 'now' | date: "%s" %}
+{% assign sixdaysago = 'now' | date: "%s" | minus: 518400 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace: "+","%20" | date: "%s"%}
+{% assign ninetydaysago = 'now' | date: "%s" | minus: 7776000| date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace: "+","%20" | date: "%s"%}
 
-  * 22-26 Jul, 2019 - Computational and Data Science for High Energy Physics (CoDaS-HEP) 2019 School
-    * Princeton University
-    * [Webpage](http://codas-hep.org/)
 
-  * 19-21 Aug, 2019 - ATLAS Software Carpentries Training
-    * Lawrence Berkeley National Laboratory
-    * [Indico page](https://indico.cern.ch/event/816946/)
+{% assign selected_events = "" | split: ',' %}
+<h4>Upcoming Events:</h4>
+IRIS-HEP team members are involved in organizing the following events:
+{% for event_hash in site.data.events %}
+  {% assign event = event_hash[1] %}
+  {% assign startdatecmp = event.startdate | date: "%s" %}
+  {% if startdatecmp >= sixdaysago %}
+     {% assign selected_events = selected_events | push: event %}
+  {% endif %}
+{% endfor %}
 
-**Past events:**
+<ul>
+{% assign selected_events = selected_events | sort: 'startdate' %}
+{% for event in selected_events %}
+  {% assign startdatecmp = event.startdate | date: "%s" %}
+  <li> {{TXT}}{{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }} - <a href="{{event.meetingurl}}">{{event.name}}</a> (<i>{{event.location}}</i>)</li>
+{% endfor %}
+</ul>
 
-  * 10 Jun, 2019 - FIRST-HEP/ATLAS Software Training
-    * Argonne National Laboratory
-    * [Indico page](https://indico.cern.ch/event/827231/)
 
-  * 3-4 Jun, 2019 - An introduction to programming for STEM teachers
-    * University of Puerto Rico at Mayaguez
-    * [Indico page](https://indico.cern.ch/event/817539/)
+{% assign selected_events = "" | split: ',' %}
+<h4>Recent Events:</h4>
+{% for event_hash in site.data.events  %}
+  {% assign event = event_hash[1] %}
+  {% assign startdatecmp = event.startdate | date: "%s" %}
+  {% if startdatecmp < sixdaysago and startdatecmp > ninetydaysago %}
+     {% assign selected_events = selected_events | push: event %}
+  {% endif %}
+{% endfor %}
 
-  * 1-2 Apr, 2019 - Software Carpentry Workshop 
-    * Fermi National Accelerator Laboratory
-    * [Indico page](https://indico.fnal.gov/event/20233)
+<ul>
+{% assign selected_events = selected_events | sort: 'startdate' | reverse %}
+{% for event in selected_events  %}
+  {% assign startdatecmp = event.startdate | date: "%s" %}
+  {% if startdatecmp < sixdaysago and startdatecmp > ninetydaysago %}
+  <li> {{TXT}}{{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }} - <a href="{{event.meetingurl}}">{{event.name}}</a> (<i>{{event.location}}</i>)</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
 
