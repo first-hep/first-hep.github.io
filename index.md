@@ -17,48 +17,7 @@ ongoing events don't get prematurely flagged as recent.
 {% assign sixdaysago = 'now' | date: "%s" | minus: 518400 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace: "+","%20" | date: "%s"%}
 {% assign ninetydaysago = 'now' | date: "%s" | minus: 7776000| date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace: "+","%20" | date: "%s"%}
 
-
-{% assign selected_events = "" | split: ',' %}
-<h4>Upcoming Events:</h4>
-IRIS-HEP team members are involved in organizing the following events:
-{% for event_hash in site.data.events %}
-  {% assign event = event_hash[1] %}
-  {% assign startdatecmp = event.startdate | date: "%s" %}
-  {% if startdatecmp >= sixdaysago %}
-     {% assign selected_events = selected_events | push: event %}
-  {% endif %}
-{% endfor %}
-
-<ul>
-{% assign selected_events = selected_events | sort: 'startdate' %}
-{% for event in selected_events %}
-  {% assign startdatecmp = event.startdate | date: "%s" %}
-  <li> {{TXT}}{{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }} - <a href="{{event.meetingurl}}">{{event.name}}</a> (<i>{{event.location}}</i>)</li>
-{% endfor %}
-</ul>
-
-
-{% assign selected_events = "" | split: ',' %}
-<h4>Recent Events:</h4>
-{% for event_hash in site.data.events  %}
-  {% assign event = event_hash[1] %}
-  {% assign startdatecmp = event.startdate | date: "%s" %}
-  {% if startdatecmp < sixdaysago and startdatecmp > ninetydaysago %}
-     {% assign selected_events = selected_events | push: event %}
-  {% endif %}
-{% endfor %}
-
-<ul>
-{% assign selected_events = selected_events | sort: 'startdate' | reverse %}
-{% for event in selected_events  %}
-  {% assign startdatecmp = event.startdate | date: "%s" %}
-  {% if startdatecmp < sixdaysago and startdatecmp > ninetydaysago %}
-  <li> {{TXT}}{{event.startdate | date: "%-d %b" }}{{event.enddate | date: " - %-d %b" }}, {{event.startdate | date: "%Y" }} - <a href="{{event.meetingurl}}">{{event.name}}</a> (<i>{{event.location}}</i>)</li>
-  {% endif %}
-{% endfor %}
-</ul>
-
-<h1>New Content</h1>
+<h1>New Content 2</h1>
 
  <section class="blog">
    <h2> News Items 2 </h2>
