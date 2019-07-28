@@ -6,15 +6,15 @@ permalink: /events/
 
 **Upcoming events:**
 
-  * 22-26 Jul, 2019 - Computational and Data Science for High Energy Physics (CoDaS-HEP) 2019 School
-    * Princeton University
-    * [Webpage](http://codas-hep.org/)
-
   * 19-21 Aug, 2019 - ATLAS Software Carpentries Training
     * Lawrence Berkeley National Laboratory
     * [Indico page](https://indico.cern.ch/event/816946/)
 
 **Past events:**
+
+  * 22-26 Jul, 2019 - Computational and Data Science for High Energy Physics (CoDaS-HEP) 2019 School
+    * Princeton University
+    * [Webpage](http://codas-hep.org/)
 
   * 10 Jun, 2019 - FIRST-HEP/ATLAS Software Training
     * Argonne National Laboratory
