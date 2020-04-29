@@ -34,7 +34,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-uglify-es": "^1.0.4",
     "gulp-util": "^3.0.8",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jquery-min": "0.0.2",
     "lazysizes": "^4.0.4",
     "normalize-css": "^2.3.1",
