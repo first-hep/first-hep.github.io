@@ -36,7 +36,7 @@
     "gulp-util": "^3.0.8",
     "jquery": "^3.2.1",
     "jquery-min": "0.0.2",
-    "lazysizes": "^4.0.4",
+    "lazysizes": "^5.2.1",
     "normalize-css": "^2.3.1",
     "popper.js": "^1.14.3",
     "velocity-animate": "^1.5.1"
